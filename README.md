@@ -81,7 +81,7 @@ A full-stack Laravel application featuring:
 
 ## Acknowledgments
 
-Thanks to *Uygar Özesmi*, the founder of Good4Trsut, for inspiring me to start on this journey and providing me necessary tools.  
+Thanks to *Uygar Özesmi*, the founder of Good4Trust.org, for inspiring me to start on this journey and providing me necessary tools.  
 Inspired by hands-on, project-first learning methods.
 
 ---
