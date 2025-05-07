@@ -1,0 +1,50 @@
+<?php
+//lesson 1
+echo "Hello from PHP!"."<br>";
+
+//lesson 2
+$first_name = "Bahar";
+$last_name = "Yüksel";
+$year = 2025;
+
+echo "Hello, my name is $first_name $last_name.<br>";
+echo "The year is $year.";
+echo "<br>";
+
+//lesson 3
+$name = "Bahar";
+$age = 16;
+$city = "Istanbul";
+
+echo "$name is $age years old and lives in $city.<br>";
+
+$birth_year = 2025 - $age;
+echo "She was born in $birth_year.<br>";
+
+//challenge 1
+$first_name = "Bahar";
+$last_name = "Yüksel";
+$current_year = date("Y");
+$age = $current_year - $birth_year;
+
+echo "Hello, $first_name $last_name! You are $age years old.<br>";
+
+//lesson 4
+$age = 16;
+
+if ($age >= 18) {
+    echo "Access granted.";
+} else {
+    echo "Sorry, you're too young.<br>";
+}
+
+//challenge 2
+$age = 16;
+
+if ($age < 13) {
+    echo "You're a child.";
+} elseif ($age >= 13 && $age <= 17) {
+    echo "You're a teenager.";
+} else {
+    echo "You're an adult.";
+}
