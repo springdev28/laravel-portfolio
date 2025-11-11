@@ -69,7 +69,7 @@ A full-stack Laravel application featuring:
 
 ## Acknowledgments
 
-Thanks to [Uygar Özesmi][https://www.linkedin.com/in/uygarozesmi/?originalSubdomain=tr], the founder of Good4Trust.org, for inspiring me to start on this journey and providing me necessary tools.  
+Thanks to [Uygar Özesmi](https://www.linkedin.com/in/uygarozesmi/?originalSubdomain=tr), the founder of Good4Trust.org, for inspiring me to start on this journey and providing me necessary tools.  
 
 ---
 
@@ -81,7 +81,7 @@ If you're learning Laravel too or want to collaborate, feel free to connect.
 
 ## Local Development
 
-This project was developed and tested locally using [XAMPP][https://www.apachefriends.org/].
+This project was developed and tested locally using [XAMPP](https://www.apachefriends.org/).
 
 - PHP server running at: `http://localhost`
 - MySQL database accessible via: `http://localhost/phpmyadmin`
