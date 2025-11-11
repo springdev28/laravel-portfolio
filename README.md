@@ -10,27 +10,15 @@ The goal is to build real-world skills by mastering PHP, Laravel, MySQL, and rel
 
 - **Experience Level:** Basic Python + HTML
 - **Goal:** Junior Laravel Developer
-- **Time Commitment:** ~4 hrs/week  
+- **Time Commitment:** ~7 hrs/week  
 - **Focus:** Practical projects, real Laravel app development, clean code, and strong fundamentals.
-
-*Detailed Plan:* https://docs.google.com/document/d/1bArqHXZS7-YRLBEj7MT7VcQCfrEhfuXVQD30b31NYjw/edit?usp=sharing
-
 ---
 
 ## Weekly Breakdown
 
-|  Week  |         Focus Area         | Project/Exercise |
+| Session | Focus Area | Project/Exercise |
 |:---|:---|:---|
-| Week 1 | PHP Fundamentals           | Build a simple "Hello World" app and birth year calculator |
-| Week 2 | Arrays & Functions         | Create a dynamic To-Do List |
-| Week 3 | Forms & Superglobals       | Build a Basic Login Form |
-| Week 4 | MySQL + PHP                | Feedback form with database storage |
-| Week 5 | Intro to Laravel           | Multi-page website with Blade Templates |
-| Week 6 | Auth + Eloquent            | User dashboard with authentication |
-| Week 7 | Relationships + Middleware | Blogging platform linked to users |
-| Week 8 | Final Project              | Full Laravel app (Blog, CRM, Job Board, etc.) |
-
-| Bonus Weeks | File Uploads, APIs, Testing, Deployment |
+| 1 | PHP Fundamentals | Introduction, Create a Local Server, Syntax, Variable and Data Types, Superglobal Variables |
 
 ---
 
@@ -63,7 +51,7 @@ The goal is to build real-world skills by mastering PHP, Laravel, MySQL, and rel
 - Laravel 10.x
 - MySQL (via MAMP)
 - Git & GitHub
-- MAMP (for local development)
+- XAMPP (for local development)
 
 ---
 
@@ -81,8 +69,7 @@ A full-stack Laravel application featuring:
 
 ## Acknowledgments
 
-Thanks to *Uygar Özesmi*, the founder of Good4Trust.org, for inspiring me to start on this journey and providing me necessary tools.  
-Inspired by hands-on, project-first learning methods.
+Thanks to [Uygar Özesmi][https://www.linkedin.com/in/uygarozesmi/?originalSubdomain=tr], the founder of Good4Trust.org, for inspiring me to start on this journey and providing me necessary tools.  
 
 ---
 
@@ -94,12 +81,12 @@ If you're learning Laravel too or want to collaborate, feel free to connect.
 
 ## Local Development
 
-This project was developed and tested locally using [MAMP](https://www.mamp.info/).
+This project was developed and tested locally using [XAMPP][https://www.apachefriends.org/].
 
-- PHP server running at: `http://localhost:8888`
+- PHP server running at: `http://localhost`
 - MySQL database accessible via: `http://localhost/phpmyadmin`
 
 To run the project locally:
-1. Start MAMP (Apache + MySQL).
+1. Start XAMPP (Apache + MySQL).
 2. Place project files inside the MAMP `htdocs` directory.
-3. Visit `http://localhost:8888/` in your browser.
+3. Visit `http://localhost/` in your browser.
