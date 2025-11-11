@@ -1,92 +1,35 @@
-# My Laravel Developer Journey
+# BTK Akademi – PHP Course Overview
 
-Welcome!  
-This repository documents my personal journey to becoming a **Junior Laravel Developer**, following a structured, project-based learning plan.  
-The goal is to build real-world skills by mastering PHP, Laravel, MySQL, and related technologies — all through hands-on coding and weekly mini-projects.
+BTK Akademi offers free, certified online courses to help learners build a strong foundation in PHP, making it ideal for aspiring web developers and Laravel beginners. 
 
----
+I followed this course until the end, but didn't do all the practices. At the start, the lessons were understandable and the intructor was clear in his teaching. However, as the course went on, I noticed a shift in phase, as more tools (like Bootstrap) were added into the mix with little to no introduction. 
 
-## Learning Plan Overview
-
-- **Experience Level:** Basic Python + HTML
-- **Goal:** Junior Laravel Developer
-- **Time Commitment:** ~7 hrs/week  
-- **Focus:** Practical projects, real Laravel app development, clean code, and strong fundamentals.
----
-
-## Weekly Breakdown
-
-| Session | Focus Area | Project/Exercise |
-|:---|:---|:---|
-| 1 | PHP Fundamentals | Introduction, Create a Local Server, Syntax, Variable and Data Types, Superglobal Variables |
+In the end, if you're a Turkish citizen, and have experince using frameworks such as Bootstrap, I recommend you give the course a try.
 
 ---
 
-## Highlights
+## Course Options
 
-- Clean Blade Templating
-- Database-Driven Apps with Eloquent ORM
-- Authentication with Laravel Breeze/Jetstream
-- RESTful CRUD Operations
-- Form Validation and Middleware
-- Deployment and GitHub Hosting
+| Course Title | Link |
+|--------------|------|
+| PHP 8 ile Web Uygulama Geliştirme (Temel Seviye) | [View Course](https://www.btkakademi.gov.tr/portal/course/php-8-ile-web-uygulama-gelistirme-25053) |
 
 ---
 
-## Progress Tracking
+## What You'll Learn
 
-- PHP Basics: Completed  
-- Arrays, Loops, and Functions: In Progress  
-- Forms and Session Handling: In Progress  
-- Database Integration: In Progress  
-- Laravel Routing, Controllers, and Views: In Progress  
-- Authentication and Authorization: In Progress  
-- Final Project: In Progress
+- PHP syntax, variables, operators, and control structures
+- Handling HTML form data using `$_POST`, `$_GET`, `$_SESSION`, and `$_SERVER`
+- Connecting PHP with MySQL using `mysqli`
+- Integrating PHP with HTML, CSS, and Bootstrap
+- Setting up a local development environment for PHP
 
 ---
 
-## Tools & Technologies
+## Course Benefits
 
-- PHP 8.x
-- Laravel 10.x
-- MySQL (via MAMP)
-- Git & GitHub
-- XAMPP (for local development)
-
----
-
-## Final Project Sneak Peek
-
-A full-stack Laravel application featuring:
-
-- User authentication
-- Dynamic CRUD operations
-- Responsive UI with Tailwind
-- Secure form handling and validation
-- Live deployment
-
----
-
-## Acknowledgments
-
-Thanks to [Uygar Özesmi][https://www.linkedin.com/in/uygarozesmi/?originalSubdomain=tr], the founder of Good4Trust.org, for inspiring me to start on this journey and providing me necessary tools.  
-
----
-
-## Connect with Me
-
-If you're learning Laravel too or want to collaborate, feel free to connect.
-
----
-
-## Local Development
-
-This project was developed and tested locally using [XAMPP][https://www.apachefriends.org/].
-
-- PHP server running at: `http://localhost`
-- MySQL database accessible via: `http://localhost/phpmyadmin`
-
-To run the project locally:
-1. Start XAMPP (Apache + MySQL).
-2. Place project files inside the MAMP `htdocs` directory.
-3. Visit `http://localhost/` in your browser.
+- Free access with a BTK Akademi account
+- Certificate upon completion
+- Beginner-friendly and modular content
+- Learn at your own pace
+- Reinforces core backend development skills for Laravel
