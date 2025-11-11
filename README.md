@@ -14,7 +14,7 @@ The goal is to build real-world skills by mastering PHP, Laravel, MySQL, and rel
 - **Focus:** Practical projects, real Laravel app development, clean code, and strong fundamentals.
 ---
 
-## Weekly Breakdown
+## Session Breakdown
 
 | Session | Focus Area | Project/Exercise |
 |:---|:---|:---|
