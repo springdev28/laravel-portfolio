@@ -1,0 +1,87 @@
+PHP Variables and Data Types
+
+Variables
+
+    - A variable is used to store data.
+    - It must start with a dollar sign $ followed by the variable name.
+
+    Variable names:
+
+    - Must start with a letter or underscore (_)
+    - Cannot start with a number
+    - Are case-sensitive
+
+    Syntax:
+    -----
+    $variable_name = value;
+
+    Example:
+    -----
+    $name = "John";
+    $age = 25;
+
+Data Types
+
+    PHP automatically detects the data type (dynamic typing). The main types are:
+
+    String
+
+    * Sequence of characters enclosed in quotes
+
+    Example:
+    -----
+    $city = "Paris";
+
+
+    Integer
+    
+    * Whole number, no decimal
+    
+    Example:
+    -----
+    $year = 2025;
+
+
+    Float (Double)
+
+    * Number with decimal point
+
+    Example:
+    -----
+    $price = 19.99;
+
+
+    Boolean
+
+    * Represents true or false
+    * Used in conditions
+
+    Example:
+    -----
+    $isAvailable = true;
+
+
+    Array
+
+    * Stores multiple values
+    * Indexed or associative
+
+    Examples:
+    -----
+    $fruits = ["apple", "banana", "orange"]; // indexed
+    $person = ["name" => "Alice", "age" => 30]; // associative
+
+
+    NULL
+
+    * Represents a variable with no value
+
+    Example:
+    -----
+    $data = null;
+
+Key Notes
+
+    - PHP is dynamically typed – no need to declare the type.
+    - Use var_dump($variable) to check the data type.
+    - Use echo or print to output variable values.

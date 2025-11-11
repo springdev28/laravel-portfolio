@@ -1,0 +1,95 @@
+PHP Superglobals
+
+What are Superglobals?
+
+    - Superglobals are built-in variables in PHP.
+    - Accessible anywhere in the script (functions, classes, files).
+    - Start with an underscore and a dollar sign (e.g., $_POST).
+    - Used to handle form data, sessions, server info, etc.
+
+Common Superglobals
+
+    $_GET
+
+        * Stores form data sent via URL query string (method="GET").
+        * Data is visible in the browser's address bar.
+        * Best for search/filter actions or non-sensitive data.
+
+        Example:
+        -----
+        // URL: example.com/index.php?name=John
+        $name = $_GET['name'];
+
+    $_POST
+
+        * Stores form data sent via HTTP POST method.
+        * Data is not visible in the URL.
+        * Used for sensitive or large form data (e.g., passwords, messages).
+
+        Example:
+        -----
+        // In form handler:
+        $email = $_POST['email'];
+
+    $_REQUEST
+
+        * Contains combined data from $_GET, $_POST, and $_COOKIE.
+        * Not recommended for sensitive logic — use $_GET or $_POST directly for clarity.
+
+    $_SERVER
+
+        * Contains information about the server and execution environment.
+        * Useful for debugging and routing.
+
+        Common keys:
+        -----
+        $_SERVER['PHP_SELF']   // Current script path
+        $_SERVER['SERVER_NAME'] // Hostname
+        $_SERVER['REQUEST_METHOD'] // GET or POST
+
+    $_SESSION
+    
+        * Used to store data across multiple page requests.
+        * Requires calling session_start() at the beginning of the script.
+
+        Example:
+        -----
+        session_start();
+        $_SESSION['username'] = 'Bahar Yüksel';
+
+    $_COOKIE
+
+        * Used to store small amounts of data on the user's browser.
+        * Sent back to the server with every request.
+
+        Example:
+        -----
+        setcookie("user", "John", time() + 3600);
+        echo $_COOKIE["user"];
+
+    $_FILES
+
+        * Handles file uploads from a form.
+        * Contains file name, type, size, temp location, and errors.
+
+        Example:
+        -----
+        $_FILES['image']['name'];
+        $_FILES['image']['tmp_name'];
+
+    $_ENV
+
+        * Stores environment variables (often set in .env files or server config).
+        
+        Example:
+        -----
+        echo $_ENV['APP_ENV'];
+
+    $_GLOBALS
+
+        * Accesses global variables from anywhere in the script.
+        * Not often used in modern PHP development.
+
+        Example:
+        -----
+        $GLOBALS['myVar'];

@@ -1,0 +1,59 @@
+XAMPP Installation and Setup Tutorial for macOS
+
+1. What is XAMPP?
+
+    XAMPP is a free, all-in-one package that includes:
+
+    - Apache (web server)
+    - MySQL/MariaDB (database)
+    - PHP (the programming language)
+    - phpMyAdmin (database management via browser)
+
+    You’ll use it to run and test PHP scripts on your Mac before deploying them to a live server.
+
+2. Download XAMPP
+
+    - Open your web browser and go to: https://www.apachefriends.org
+    - Click “XAMPP for OS X” to download the latest version.
+    - Wait for the .dmg file to finish downloading (it’s usually around 150–200 MB).
+
+3. Install XAMPP
+
+    - Once the download completes, double-click the .dmg file.
+    - Drag the XAMPP folder into your Applications folder.
+    - After copying finishes, go to: Finder → Applications → XAMPP
+
+    Double-click XAMPP.app (or manager-osx.app).
+
+    Note: You might see a warning saying
+    “XAMPP can’t be opened because the developer cannot be verified.”
+    This is normal, follow the steps below to fix it.
+
+4. Allow XAMPP to Open (macOS Security Fix)
+
+    - Click the Apple logo → System Settings (or System Preferences on older macOS versions).
+    - Go to Privacy & Security → scroll down.
+
+    - You’ll see a message:
+    “XAMPP was blocked from use because it is not from an identified developer.”
+    - Click Open Anyway.
+    - When prompted again, click Open.
+
+    Now XAMPP should launch successfully.
+
+5. Start the Web Server
+
+    Once XAMPP opens, you’ll see several tabs.
+    Click Manage Servers at the top.
+
+    You’ll see two main options:
+
+    * Apache Web Server — runs your PHP code.
+
+    *  MySQL Database — used for storing data (not needed right now).
+
+    To start:
+
+    - Select Apache Web Server.
+    - Click Start on the right side.
+    - If the status changes to Running, the web server is active.
