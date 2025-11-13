@@ -19,6 +19,7 @@ The goal is to build real-world skills by mastering PHP, Laravel, MySQL, and rel
 | Session | Focus Area | Project/Exercise |
 |:---|:---|:---|
 | 1 | PHP Fundamentals | Introduction, Create a Local Server, Syntax, Variable and Data Types, Superglobal Variables |
+| 2 | Form Handling | Basic Form Workflow, Redirecting Data, Validation |
 
 ---
 
