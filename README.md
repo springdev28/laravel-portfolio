@@ -1,6 +1,8 @@
 | Session | Focus Area | Project/Exercise |
 |:---|:---|:---|
 | 1 | PHP Fundamentals | Introduction, Create a Local Server, Syntax, Variable and Data Types, Superglobal Variables |
+| 2 | Form Handling | Basic Form Workflow, Redirecting Data, Validation |
+
 
 ---
 
@@ -22,12 +24,21 @@
 - Distinguish between different variable and data types
 - Use the correct variable types in corresponding context
 - Undertsand the errors caused by unfitting data
-- Gain a fundamental understanding of $_ suberglobal commands 
+- Gain a fundamental understanding of $_ suberglobal commands
+  
+- Create basic HTML forms embedded with PHP
+- Get form data in PHP
+- Validate input data
 
 ## Overview
 
+Session 1:
 - Time spent: 1-1.5 hour(s)
 - Date: 11 November 2025
+
+Session 2:
+- Time spent: 45 mins
+- Date: 13 November 2025
   
 
 
