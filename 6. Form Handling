@@ -1,0 +1,81 @@
+1. Basic Form Workflow (Web + PHP)
+
+    Flow:
+
+        - User fills out an HTML form.
+        - Form sends data to a PHP script using method="POST" or method="GET".
+
+    PHP script:
+
+        - Checks the request method.
+        - Reads the form data ($_POST or $_GET).
+        - Validates it (required fields, formats, etc.).
+        - Sanitizes/escapes it before output.
+        - Optionally redirects or shows a response page.
+
+    Key terms:
+
+        - Request method: How data is sent (usually GET or POST).
+        - Action: The URL the form submits to (action="process.php").
+        - Superglobals: Special PHP variables like $_POST, $_GET, $_SERVER that are always available.
+
+2. HTTP Methods: GET vs POST
+
+    GET:
+
+        * Data goes in the URL: page.php?name=Bob&age=18
+        * Good for: searches, filters, links you can bookmark.
+        * Not good for: passwords, sensitive data, long text.
+
+    POST:
+
+        * Data goes in the request body (hidden from the URL).
+        * Good for: login forms, registration, anything that changes data on the server.
+        * Often required for security-sensitive actions.
+
+3. Getting Form Data in PHP
+
+    Data from <form method="POST"> → $_POST['fieldName']
+    Data from <form method="GET"> → $_GET['fieldName']
+
+    Important ideas:
+
+        - Never trust user input.
+        - Assume anything in $_POST / $_GET might be empty, wrong type, or malicious.
+
+    Always validate:
+
+        * Required fields not empty.
+        * Correct format (email, numbers, etc.).
+        * Reasonable length.
+
+4. Validation (Required Fields & More)
+
+    Types of validation:
+
+        - Presence: Is it there?
+        - Format: Email, numbers, allowed characters. (Use htmlspecialchars())
+        - Range: length: Too long, too short?
+
+6. Common Web Security Concepts (Beginner Level)
+    
+    XSS – Cross-Site Scripting
+
+        - Attacker injects HTML/JS (like <script>alert('xss')</script>) into inputs.
+        - If output is not escaped, the browser runs it as code.
+        
+        Protection:
+
+        * Escape output with htmlspecialchars().
+
+        Don’t inject raw user input directly into HTML, JS, or attributes.
+
+    CSRF – Cross-Site Request Forgery (for later)
+
+        - Attacker tricks a logged-in user’s browser into sending a form to your site.
+        - Beginner note: just know that POST alone is not enough protection.
+
+        Protection: 
+        
+        * CSRF tokens.
+
